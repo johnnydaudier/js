@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Pepe search</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#page-top">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                 data-bs-target="#navbarResponsive" 
+                aria-controls="navbarResponsive" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+                <!-- asdasdsadasdasdasdas -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CATEGORIAS
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Cocina</a></li>
+                      <li><a class="dropdown-item" href="#">Refrigeracion</a></li>
+                      <li><a class="dropdown-item" href="#">Pequeños electrodomesticos</a></li>
+                      <li><a class="dropdown-item" href="#">Cuidado personal</a></li>
+                      <li><a class="dropdown-item" href="#">Lavado</a></li>
+                      <li><a class="dropdown-item" href="#">Otros</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Bajaron de precio</a></li>
+                      <li><a class="dropdown-item" href="#">Mas comprados</a></li>
+                      <li><a class="dropdown-item" href="#">Cuotas sin interes</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MARCAS
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">SAMSUNG</a></li>
+                      <li><a class="dropdown-item" href="#">ELECTROLUX</a></li>
+                      <li><a class="dropdown-item" href="#">ATMA</a></li>
+                      <li><a class="dropdown-item" href="#">GAFA</a></li>
+                      <li><a class="dropdown-item" href="#">BGH</a></li>
+                      <li><a class="dropdown-item" href="#">WHIRLPOOL</a></li>
+                      <li><a class="dropdown-item" href="#">PHILIPS</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">PEABODY</a></li>
+                      <li><a class="dropdown-item" href="#">KITCHENAID</a></li>
+                      <li><a class="dropdown-item" href="#">OSTER</a></li>
+                      <li><a class="dropdown-item" href="#">PHILCO</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">OTROS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                    </ul>
+                  </li>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#!">Registrarme</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Iniciar sesión</a></li> 
+                        <li>
+                          <div>
+                            <img onmouseover="showCart(this)" class="cart" src="./assets/img/cart.png" alt="">
+                            <p class="count-product">0</p>
+                          </div>
+                        <div class="cart-products" id="products-id">
+                            <p class="close-btn" onclick="closeBtn()">X</p>
+                            <h4>Mi carrito</h4>
+                              <div class="card-items">
+                                
+                                
+                              </div>
+                              <h3>Total: <strong class="price-total">0</strong> $</h3>   
+                      </div>
+                        </li>                                           
+                         
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                  <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">¿Como se usa?</a><br /> <hr />
+                    <!-- ////*  asdasdasdasdasdasd      */////  -->
+                    
+                    <div class="input-group mb-3">
+                        <div class="row">
+                            <h5>Desde: </h5><br>
+                        </div>
+                        
+                        <span class="input-group-text">$</span>
+                        <span class="input-group-text">0.00</span>
+                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+                      
+                    <div class="input-group">
+                        <div class="row">
+                            <h5>Hasta: </h5><br>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                        <span class="input-group-text">$</span>
+                        <span class="input-group-text">0.00</span>
+                    </div> <hr /><br>
+                    
+                    
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ingresa aqui tu busqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <!-- <button class="btn btn-outline-secondary bg-black" type="button" id="button-addon2">Buscar</button> -->
+                    </div> 
+                    <div class="row">
+                        <!-- <div class="col-6">
+                            <a id="botonSimular" class="btn btn-primary btn-xl rounded-pill mt-3">SIMULAR POR PROMPT</a>
+                        </div> -->
+                        
+                        <div class="col-4"></div>
+                        <div class="col-4 text-center">
+                          
+                          <div>
+                              <a class="btn btn-primary btn-xl rounded-pill mt-3">Buscar</a>
+                          </div>
+                      </div>
+
+                        <div class="col-4"></div>
+                    </div>
+
+                  <hr>
+                  
+
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+
+        <section>
+          <div class="container-md">
+            
+                <div class="products">             
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/heladera2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HELADERA CICLICO GAFA  HGF357AFB</h5>
+                        <p style="color: #2c2a2c;" class="card-text">Heladera con freezer. capacidad de almacenamiento de 282lts.Control manual.</p>
+                        <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>59.799,00</b></span></p>
+                        <a prod-id="1" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/heladera1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HELADERA SIDE BY SIDE PHILCO PHSB530XT</h5>
+                        <p style="color: #2c2a2c;" class="card-text">Cap.bruta 584L/neta 527L. Color Acero Inoxidable. Controles externos c/display Digital.
+                           Fab.Hielo.</p>
+                           <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>236.499,00</b></span></p>  
+                        <a  prod-id="2" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/heladera3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HELADERA NO FROST ELECTROLUX DFN3500P PLATA</h5>
+                        <p style="color: #2c2a2c;" class="card-text">HELADERA NO FROST DFN3500P Color Plata Eficiencia Energética A. </p>
+                        <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>89.999,00</b></span></p>
+                        <a prod-id="3" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/cocina1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">COCINA ESCORIAL MASTER BG</h5>
+                        <p style="color: #2c2a2c;" class="card-text">Totalmente enlozada. Puerta de horno c/doble vidrio, bisagra desmontable y manija ergonomica de hierro. </p>
+                        <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>30.999,00</b></span></p>
+                        <a prod-id="4" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/cocina2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">COCINA MARSHALL MTI-602NVS NEGRA</h5>
+                        <p style="color: #2c2a2c;" class="card-text">Horno autolimpiante. Puerta desmontable de cristal, c/ visor. Cajon parrilla autolimpiante.</p>
+                        <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>44.599,00</b></span></p>
+                        <a prod-id="5" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/img/cocina3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">COCINA MARSHALL MTI 613 N IX VS</h5>
+                        <p style="color: #2c2a2c;" class="card-text">Gabinete negro c/plancha inoxidable. Horno autolimpiante c/luz. Puerta c/doble vidrio, ext.espejado. Manija cromada mate. </p>
+                        <p class="precio" style="color: #2c2a2c;">Precio $ <span><b>68.299,00</b></span></p>
+                        <a prod-id="6" href="" class="btn btn-primary btn-add">Agregar</a>
+                      </div>
+                    </div>               
+                </div>    
+            </div>
+          
+        </section>
+        <!-- Content section 1-->
+        
+        <!-- <section id="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/img/masComprados.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="h1">Lo mas comprado</h5>
+                      <p>Mira los productos mas pedidos.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/bajaronPrecio.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="h1">Bajaron de precio</h5>
+                      <p>Productos que bajaron esta semana de precio.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/cuotasSin.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="h1">En cuotas sin interes</h5>
+                      <p>Mira la lista de productos que cuentan con cuotas SIN INTERES.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section> -->
+        
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Si ya tenés un presupuesto...</h2>
+                            <p>Te invitamos a colocar los montos en la seccion "Desde" y "Hasta", esto puede agilizar tu busqueda y traer mejores resultados   =) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">O podes buscar por palabras claves. </h2>
+                            <p>Esto puede traer muchos resultados a tu busqueda permitiendote comparar varios productos a la ves, por ejemplo: "Heladera", "Cocina", "Lavarropas", etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 3-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Aca hay un perro (por ahora).</h2>
+                            <p> En construccion...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/script.js"></script>
+        <script src="/carro.js"></script>
+        
+        
+    </body>
+</html>
