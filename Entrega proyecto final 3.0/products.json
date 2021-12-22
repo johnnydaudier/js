@@ -1,0 +1,13 @@
+[ {"id": 1, "nombre": "Heladera", "precio": 20000, "stock": 6 },
+ {"id": 2, "nombre": "Lavarropas", "precio": 15000, "stock": 11},
+ {"id": 3, "nombre": "Cocina", "precio": 9000, "stock": 20},
+ {"id": 4, "nombre": "Procesadora", "precio": 7500, "stock": 30},
+ {"id": 5, "nombre": "Tostadora", "precio": 4500, "stock": 7},
+ {"id": 6, "nombre": "Freezer", "precio": 18000, "stock": 4}                
+]
+
+
+
+
+
+
