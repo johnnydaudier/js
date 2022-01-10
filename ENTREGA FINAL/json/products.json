@@ -1,0 +1,16 @@
+[   {"id": 1, "nombre": "Heladera","precio": 20000,"stock": 6 },
+    {"id": 2, "nombre": "Lavarropas", "precio": 15000, "stock": 11},
+    {"id": 3, "nombre": "Cocina", "precio": 9000, "stock": 20},
+    {"id": 4, "nombre": "Procesadora", "precio": 7500, "stock": 30},
+    {"id": 5, "nombre": "Tostadora", "precio": 4500, "stock": 7},
+    {"id": 6, "nombre": "Freezer", "precio": 18000, "stock": 4},
+    {"id": 7, "nombre": "Licuadora", "precio": 3500, "stock": 3},
+    {"id": 8, "nombre": "Calefon", "precio": 35999, "stock": 11},
+    {"id": 9, "nombre": "Batidora", "precio": 38000, "stock": 5},
+    {"id": 10, "nombre": "Pava Electrica", "precio": 3799, "stock": 15},
+    {"id": 11, "nombre": "Aire acondicionado", "precio": 78000, "stock": 20}     
+]
+       
+
+
+
